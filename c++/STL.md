@@ -143,6 +143,39 @@
    // 接收名为 pos1 或 pos2 的参数的重载若参数在范围外则抛出 std::out_of_range 。
    ```
 
+4. insert
+
+   ```c++
+   // Inserts string str at the position index
+   constexpr basic_string& insert( size_type index, const basic_string& str );
+   // Inserts a string, obtained by str.substr(index_str, count) at the position index
+   constexpr basic_string& insert( size_type index, const basic_string& str,
+                                   size_type index_str, size_type count = npos);
+   ```
+
+5. to_string
+
+   ```c++
+   std::string to_string( int value );
+   (1)	(since C++11)
+   std::string to_string( long value );
+   (2)	(since C++11)
+   std::string to_string( long long value );
+   (3)	(since C++11)
+   std::string to_string( unsigned value );
+   (4)	(since C++11)
+   std::string to_string( unsigned long value );
+   (5)	(since C++11)
+   std::string to_string( unsigned long long value );
+   (6)	(since C++11)
+   std::string to_string( float value );
+   (7)	(since C++11)
+   std::string to_string( double value );
+   (8)	(since C++11)
+   std::string to_string( long double value );
+   (9)	(since C++11)
+   ```
+
    
 
 # map
