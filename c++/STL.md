@@ -179,3 +179,10 @@
    
 
 # map
+
+面试官：stl的map是基于红黑树实现的，那么为什么要基于红黑树？
+
+其余的选择：跳转表、avl、BST、Splay 等等
+
+## hashmap & treemap
+
